@@ -5,5 +5,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <Button
+        android:id="@+id/buttonSon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/son"
+        android:layout_margin="10sp"
+        android:layout_weight="1"/>
 
+    <Button
+        android:id="@+id/buttonDaughter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/daughter"
+        android:layout_margin="10sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/buttonWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/google"
+        android:layout_margin="10sp"
+        android:layout_weight="1"/>
 </LinearLayout>
